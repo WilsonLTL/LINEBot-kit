@@ -1,0 +1,31 @@
+{
+  "name": "ms-router",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "axios": "0.18.0",
+    "body-parser": "1.18.3",
+    "chai": "4.2.0",
+    "compression": "1.7.3",
+    "cors": "2.8.5",
+    "dotenv": "6.2.0",
+    "ejs": "2.6.1",
+    "express": "4.16.4",
+    "helmet": "3.15.0",
+    "jsonwebtoken": "latest",
+    "linebot": "^1.4.1",
+    "mocha": "5.2.0",
+    "moment": "^2.24.0",
+    "path": "0.12.7",
+    "qr-image": "latest",
+    "request": "2.88.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha test/clinicbot_retaildemo/sample.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
