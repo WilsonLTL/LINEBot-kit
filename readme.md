@@ -27,7 +27,7 @@ Pus message: https://www.oxxostudio.tw/articles/201806/line-push-message.html
 ## Line Login
 ![image](https://i.imgur.com/t28VdhV.png)
 ```
-1. Open LINE developer,select line line service
+1. Open LINE developer,select LINE login service.
 2. Modify Login url : https://access.line.me/oauth2/v2.1/authorize?response_type=code&client_id={channel_id}redirect_uri={redirect_url}&scope=openid%20profile&state=abcde
 3. Create a LINE login button in your application , which should follow the format.
 4. Action of Login button should be the Login url.

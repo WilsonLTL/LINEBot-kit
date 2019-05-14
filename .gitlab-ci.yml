@@ -18,7 +18,7 @@ docker-test:
   script:
   - docker login registry.gitlab.com -u wilsonlo1997@gmail.com -p Vi26151851@
   - docker build -t registry.gitlab.com/asiabots/wilson/line_bot_api .
-  - docker run -d -p 80:80 registry.gitlab.com/asiabots/wilson/cantonese-nlp
+  - docker run -d -p 80:80 registry.gitlab.com/asiabots/wilson/line_bot_api
 
 docker-deploy:
   image: docker:latest
