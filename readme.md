@@ -24,7 +24,11 @@ Pus message: https://www.oxxostudio.tw/articles/201806/line-push-message.html
 |--readme.md
 ```
 
+<<<<<<< HEAD
 ## Message API
+=======
+## message API
+>>>>>>> 5979665b5e7f246bb1585beebb836ab1fe4fcb65
 [Video tutorial](https://www.youtube.com/watch?v=3J3ne9D8whU)
 ```
 1. create your own line bot and get information : channel id, channel secret, channel access token
