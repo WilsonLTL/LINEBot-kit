@@ -5,6 +5,23 @@ A micro service for line bot <br >
 Richmenu: https://events.line.me/tw/lineat/minisite/wp-content/themes/line/download.php
 ```
 
+## Folder tree
+```text
+|--routes
+|    |--line_bot
+|    |      |--index.js
+|    |      |--handlers
+|    |      |     |--linewebhook.js
+|    |      |     |--push_message.js          
+|--.env
+|--.gitlab-ci.yml
+|--app.js
+|--Dockerfile
+|--package.json
+|--package-loac.json
+|--readme.md
+```
+
 ## message API
 [Video tutorial](https://www.youtube.com/watch?v=3J3ne9D8whU)
 ```
@@ -15,7 +32,7 @@ Richmenu: https://events.line.me/tw/lineat/minisite/wp-content/themes/line/downl
 
 ## API list
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/ebb182e53d08d766e970) <br >
-** Access token is the line  bot access token <br >
+** Access token is the line  bot access token ** <br >
 1. List all rich menu <br >
 method: GET <br >
 url: https://api.line.me/v2/bot/richmenu/list <br >
