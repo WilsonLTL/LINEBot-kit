@@ -23,7 +23,7 @@ APP.get('/', function(req, res) {
 const route_sampleRoute = require(path.join(root, "routes/line_bot", "index"));
 APP.use(`/line_bot`, route_sampleRoute);
 
-let port = process.env.PORT || 3000;
+let port = process.env.PORT || 80;
 
 APP.listen(port, () => {
     console.log(`listening port ${port}`);

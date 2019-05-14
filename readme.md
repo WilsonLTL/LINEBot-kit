@@ -1,6 +1,5 @@
 # line_bot_api
 A micro service for line bot <br >
-Ref:
 ```url
 Richmenu: https://events.line.me/tw/lineat/minisite/wp-content/themes/line/download.php
 ```
