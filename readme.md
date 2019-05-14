@@ -103,7 +103,7 @@ Response: <br>
 }
 ```
 
-6. Update the rich menu image
+7. Update the rich menu image
 method: POST <br >
 url https://api.line.me/v2/bot/richmenu/{rich-menu-id}/content <br >
 Authorization：Bearer Token <br >
@@ -111,7 +111,7 @@ Content-Type: image/png <br >
 Binary: image.png <br >
 PS: must follow the ize of api 5. <br >
 
-7. Select the rich menu for all user
+8. Select the rich menu for all user
 method: POST <br >
 url: https://api.line.me/v2/bot/user/all/richmenu/{rich-menu-id} <br >
 Authorization：Bearer Token <br >
@@ -120,7 +120,7 @@ Response: <br>
 {}
 ```
 
-8.Push message <br >
+9.Push message <br >
 method: POST <br >
 url: 0.0.0.0:3000/line_bot/push_message <br >
 Request: <br >
