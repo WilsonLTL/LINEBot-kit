@@ -12,7 +12,8 @@ Richmenu: https://events.line.me/tw/lineat/minisite/wp-content/themes/line/downl
 3. run app.js
 ```
 
-##api
+##apix
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/ebb182e53d08d766e970) <br >
 ** Access token is the line  bot access token <br >
 1. List all rich menu <br >
 method: GET <br >
@@ -21,7 +22,7 @@ authorization：bearer token <br >
 
 2. View the target rich menu <br >
 method: GET <br >
-url：https://api.line.me/v2/bot/richmenu/{rich menu id} <br >
+url：https://api.line.me/v2/bot/richmenu/{rich-menu-id} <br >
 Authorization：Bearer Token
 
 3. View the group of the target rich menu <br >
@@ -31,12 +32,12 @@ Authorization：Bearer Token <br >
 
 4. Download the target rich menu image <br >
 method: GET <br >
-url: https://api.line.me/v2/bot/richmenu/{rich menu id}/content <br >
+url: https://api.line.me/v2/bot/richmenu/{rich-menu-id}/content <br >
 Authorization：Bearer Token
 
 4. Delete the rich menu <br >
 method: DELETE <br >
-url：https://api.line.me/v2/bot/richmenu/{rich menu id} <br >
+url：https://api.line.me/v2/bot/richmenu/{rich-menu-id} <br >
 Authorization：Bearer Token
 
 5. Create a new rich menu <br >
@@ -104,7 +105,7 @@ Response: <br>
 
 6. Update the rich menu image
 method: POST <br >
-url https://api.line.me/v2/bot/richmenu/{richmenu-id}/content <br >
+url https://api.line.me/v2/bot/richmenu/{rich-menu-id}/content <br >
 Authorization：Bearer Token <br >
 Content-Type: image/png <br >
 Binary: image.png <br >
@@ -112,7 +113,7 @@ PS: must follow the ize of api 5. <br >
 
 7. Select the rich menu for all user
 method: POST <br >
-url: https://api.line.me/v2/bot/user/all/richmenu/{richmenu-id} <br >
+url: https://api.line.me/v2/bot/user/all/richmenu/{rich-menu-id} <br >
 Authorization：Bearer Token <br >
 Response: <br>
 ```json
