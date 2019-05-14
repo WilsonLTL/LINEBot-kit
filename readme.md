@@ -5,14 +5,14 @@ Ref:
 Richmenu: https://events.line.me/tw/lineat/minisite/wp-content/themes/line/download.php
 ```
 
-## message api
+## message API
 ```
 1. create your own line bot and get information : channel id, channel secret, channel access token
 2. modify .env file parameter : line_bot_channelid, line_bot_channel_secret, line_bot_channel_access_token
 3. run app.js
 ```
 
-##apix
+## API list
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/ebb182e53d08d766e970) <br >
 ** Access token is the line  bot access token <br >
 1. List all rich menu <br >
