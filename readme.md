@@ -1,11 +1,12 @@
 # line_bot_api
-![image](https://i.imgur.com/FoVEnCC.png)
+![image](https://i.imgur.com/SND67kP.png)
 A micro service for line bot <br >
 ```url
 Richmenu: https://events.line.me/tw/lineat/minisite/wp-content/themes/line/download.php
 ```
 
 ## message API
+[Video tutorial](https://www.youtube.com/watch?v=3J3ne9D8whU)
 ```
 1. create your own line bot and get information : channel id, channel secret, channel access token
 2. modify .env file parameter : line_bot_channelid, line_bot_channel_secret, line_bot_channel_access_token
