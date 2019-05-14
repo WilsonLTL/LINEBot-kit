@@ -1,11 +1,30 @@
-# line_bot_api
+# Line Bot API
+## A micro service for line bot
 ![image](https://i.imgur.com/SND67kP.png)
-A micro service for line bot <br >
 ```url
 Richmenu: https://events.line.me/tw/lineat/minisite/wp-content/themes/line/download.php
+Reply: https://medium.com/pyradise/使用node-js建置你的第一個line-bot-590b7ba7a28a
+Pus message: https://www.oxxostudio.tw/articles/201806/line-push-message.html
 ```
 
-## message API
+## Folder tree
+```text
+|--routes
+|    |--line_bot
+|    |      |--index.js
+|    |      |--handlers
+|    |      |     |--linewebhook.js
+|    |      |     |--push_message.js          
+|--.env
+|--.gitlab-ci.yml
+|--app.js
+|--Dockerfile
+|--package.json
+|--package-loac.json
+|--readme.md
+```
+
+## Message API
 [Video tutorial](https://www.youtube.com/watch?v=3J3ne9D8whU)
 ```
 1. create your own line bot and get information : channel id, channel secret, channel access token
@@ -15,7 +34,7 @@ Richmenu: https://events.line.me/tw/lineat/minisite/wp-content/themes/line/downl
 
 ## API list
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/ebb182e53d08d766e970) <br >
-** Access token is the line  bot access token <br >
+** Access token is the line  bot access token ** <br >
 1. List all rich menu <br >
 method: GET <br >
 url: https://api.line.me/v2/bot/richmenu/list <br >
