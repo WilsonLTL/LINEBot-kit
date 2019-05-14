@@ -24,7 +24,14 @@ Pus message: https://www.oxxostudio.tw/articles/201806/line-push-message.html
 |--readme.md
 ```
 
-<<<<<<< HEAD
+## Line Login
+![image](https://i.imgur.com/t28VdhV.png)
+```
+1. Open LINE developer,select line line service
+2. Modify Login url : https://access.line.me/oauth2/v2.1/authorize?response_type=code&client_id={channel_id}redirect_uri={redirect_url}&scope=openid%20profile&state=abcde
+3. Create a LINE login button in your application , which should follow the format: 
+```
+
 ## Message API
 =======
 ## message API
