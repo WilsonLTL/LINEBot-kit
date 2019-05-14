@@ -6,6 +6,7 @@ const CORS = require('cors');
 const HELMET = require('helmet');
 const compressor = require('compression');
 const bodyParser = require('body-parser');
+require('custom-env').env();
 
 APP.use(CORS());
 APP.use(HELMET());
