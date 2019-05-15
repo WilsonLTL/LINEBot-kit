@@ -29,9 +29,28 @@ Push message: https://www.oxxostudio.tw/articles/201806/line-push-message.html
 1. Using ssh and enter to the new environment:
     - sudo apt-get update
     - sudo apt install docker.io
-2. docker login registry.example.com -u wilsonlo1997@gmail.com -p e63LVHtsjTz5CzcSj6Yi  
-3. docker pull registry.gitlab.com/asiabots/wilson/line_bot_api
-
+2. Pull the newest version of Docker image and run it , check it's the service online
+    - docker login registry.example.com -u wilsonlo1997@gmail.com -p e63LVHtsjTz5CzcSj6Yi  
+    - docker pull registry.gitlab.com/asiabots/wilson/line_bot_api
+    - sudo docker run -d -p 80:80 registry.gitlab.com/asiabots/wilson/line_bot_api
+    - docker logs docker_container_id
+3. Install ngrok for https access
+    - sudo apt-get install unzip wget
+    - wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip
+    - unzip ./ngrok-stable-linux-amd64.zip
+    - ./ngrok authtoken eGbiR4ue13atmuk1Gd78_5LSVKDJGMQA3soA4wzPAb    
+4. Auto setting
+    - cd /usr/sbin
+    - sudo touch api.sh
+    - sudo chown root:root api.sh
+    - sudo chmod +x api.sh
+    - sudo nano api.sh
+      code in api.sh:
+          - cd /home/$USER
+          - sudo docker run -d -p 80:80 registry.gitlab.com/asiabots/wilson/line_bot_api
+          - sudo ngrok http 80
+    - crontab -e
+        - @reboot /usr/sbin/api.sh
 ```
 
 
