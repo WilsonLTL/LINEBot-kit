@@ -165,7 +165,7 @@ Response: <br>
 
 7. Update the rich menu image
 method: POST <br >
-url https://api.line.me/v2/bot/richmenu/{rich-menu-id}/content <br >
+url: https://api.line.me/v2/bot/richmenu/{rich-menu-id}/content <br >
 Authorization：Bearer Token <br >
 Content-Type: image/png <br >
 Binary: image.png <br >
@@ -182,7 +182,7 @@ Response: <br>
 
 9.Push message <br >
 method: POST <br >
-url: 0.0.0.0:3000/line_bot/push_message <br >
+url: http://ec2-54-169-136-238.ap-southeast-1.compute.amazonaws.com/line_bot/push_message <br >
 Request: <br >
 ```json
 {
