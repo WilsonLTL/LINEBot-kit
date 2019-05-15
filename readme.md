@@ -74,6 +74,7 @@ Push message: https://www.oxxostudio.tw/articles/201806/line-push-message.html
 ```
 
 ## LINE Rich Menu
+** Rich menu only active in mobile version ** <br >
 ```text
 1. Create a new rich menu (API 5.)
 2. Upload rich menu image (API 7.)
