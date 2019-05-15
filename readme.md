@@ -52,10 +52,10 @@ Push message: https://www.oxxostudio.tw/articles/201806/line-push-message.html
     - crontab -e
         - @reboot /usr/sbin/api.sh
 ```
-## LineBot QR code
+## LINEBot QR code
 ![QRCODE](https://qr-official.line.me/sid/M/618rqnkh.png)
 
-## Line Login
+## LINE Login
 ![image](https://i.imgur.com/t28VdhV.png)
 ```text
 1. Open LINE developer,select LINE login service.
@@ -71,6 +71,13 @@ Push message: https://www.oxxostudio.tw/articles/201806/line-push-message.html
 1. create your own line bot and get information : channel id, channel secret, channel access token
 2. modify .env file parameter : line_bot_channelid, line_bot_channel_secret, line_bot_channel_access_token
 3. run app.js
+```
+
+## LINE Rich Menu
+```text
+1. Create a new rich menu (API 5.)
+2. Upload rich menu image (API 7.)
+3. Select and active rich menu (API 8.)
 ```
 
 ## API list
@@ -164,15 +171,15 @@ Response: <br>
 }
 ```
 
-7. Update the rich menu image
+7. Update the rich menu image <br >
 method: POST <br >
 url: https://api.line.me/v2/bot/richmenu/{rich-menu-id}/content <br >
 Authorization：Bearer Token <br >
 Content-Type: image/png <br >
 Binary: image.png <br >
-PS: must follow the ize of api 5. <br >
+PS: must follow the size of api 5. <br >
 
-8. Select the rich menu for all user
+8. Select the rich menu for all user <br >
 method: POST <br >
 url: https://api.line.me/v2/bot/user/all/richmenu/{rich-menu-id} <br >
 Authorization：Bearer Token <br >
