@@ -52,7 +52,8 @@ Push message: https://www.oxxostudio.tw/articles/201806/line-push-message.html
     - crontab -e
         - @reboot /usr/sbin/api.sh
 ```
-
+## LineBot QR code
+![QRCODE](https://qr-official.line.me/sid/M/618rqnkh.png)
 
 ## Line Login
 ![image](https://i.imgur.com/t28VdhV.png)
