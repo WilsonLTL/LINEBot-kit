@@ -16,7 +16,7 @@ docker-test:
     - docker:dind
   stage: test
   script:
-  - docker login registry.gitlab.com -u wilsonlo1997@gmail.com -p Vi26151851@
+  - docker login registry.gitlab.com -u wilsonlo1997@gmail.com -p e63LVHtsjTz5CzcSj6Yi
   - docker build -t registry.gitlab.com/asiabots/wilson/line_bot_api .
   - docker run -d -p 80:80 registry.gitlab.com/asiabots/wilson/line_bot_api
 
@@ -26,7 +26,7 @@ docker-deploy:
       - docker:dind
   stage: deploy
   script:
-      - docker login registry.gitlab.com -u wilsonlo1997@gmail.com -p Vi26151851@
+      - docker login registry.gitlab.com -u wilsonlo1997@gmail.com -p e63LVHtsjTz5CzcSj6Yi
       - docker build -t registry.gitlab.com/asiabots/wilson/line_bot_api .
       - docker push registry.gitlab.com/asiabots/wilson/line_bot_api
   only:

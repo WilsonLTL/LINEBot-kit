@@ -4,7 +4,7 @@
 ```url
 Richmenu: https://events.line.me/tw/lineat/minisite/wp-content/themes/line/download.php
 Reply: https://medium.com/pyradise/使用node-js建置你的第一個line-bot-590b7ba7a28a
-Pus message: https://www.oxxostudio.tw/articles/201806/line-push-message.html
+Push message: https://www.oxxostudio.tw/articles/201806/line-push-message.html
 ```
 
 ## Folder tree
@@ -24,9 +24,20 @@ Pus message: https://www.oxxostudio.tw/articles/201806/line-push-message.html
 |--readme.md
 ```
 
+## Environment setting
+```text
+1. Using ssh and enter to the new environment:
+    - sudo apt-get update
+    - sudo apt install docker.io
+2. docker login registry.example.com -u wilsonlo1997@gmail.com -p e63LVHtsjTz5CzcSj6Yi  
+3. docker pull registry.gitlab.com/asiabots/wilson/line_bot_api
+
+```
+
+
 ## Line Login
 ![image](https://i.imgur.com/t28VdhV.png)
-```
+```text
 1. Open LINE developer,select LINE login service.
 2. Modify Login url : https://access.line.me/oauth2/v2.1/authorize?response_type=code&client_id={channel_id}redirect_uri={redirect_url}&scope=openid%20profile&state=abcde
 3. Create a LINE login button in your application , which should follow the format.
