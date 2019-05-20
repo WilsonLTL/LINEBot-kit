@@ -83,6 +83,7 @@ Push message: https://www.oxxostudio.tw/articles/201806/line-push-message.html
 1. Create a new rich menu (API 5.)
 2. Upload rich menu image (API 7.)
 3. Select and active rich menu (API 8.)
+PS: The image size should be fix to 2500 * 843 or 2500 * 1686
 ```
 
 ## API list
