@@ -53,7 +53,6 @@ Push message: https://www.oxxostudio.tw/articles/201806/line-push-message.html
         - @reboot /usr/sbin/api.sh
  5. LINEBot setting
     - Create a new LINEBot and copy the channelID, secret and access token
-    - Enter ngrok website, login bt google account (linebotngrok@gmail.com, asiabots18841884)
     - Enter status, copy the httpsurl, paste it in LINEBot Webhook URL e.g https://333498e7.ngrok.io/line_bot/linewebhook
 ```
 ## LINEBot QR code
