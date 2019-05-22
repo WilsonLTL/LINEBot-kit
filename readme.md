@@ -57,7 +57,7 @@ Push message: https://www.oxxostudio.tw/articles/201806/line-push-message.html
     - Enter status, copy the httpsurl, paste it in LINEBot Webhook URL e.g https://333498e7.ngrok.io/line_bot/linewebhook
 ```
 ## LINEBot QR code
-![QRCODE](https://qr-official.line.me/sid/M/618rqnkh.png)
+![QRCODE](https://i.imgur.com/6jSmB6T.png)
 
 ## LINE Login
 ![image](https://i.imgur.com/t28VdhV.png)
