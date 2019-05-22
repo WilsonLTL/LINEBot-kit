@@ -1,4 +1,4 @@
-# Line Bot API
+# LINEBot-kit
 ## A micro service for line bot
 ![image](https://i.imgur.com/SND67kP.png)
 ```url
