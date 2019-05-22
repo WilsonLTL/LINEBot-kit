@@ -30,7 +30,7 @@ Push message: https://www.oxxostudio.tw/articles/201806/line-push-message.html
     - sudo apt-get update
     - sudo apt install docker.io
 2. Pull the newest version of Docker image and run it , check it's the service online
-    - docker login registry.example.com -u {username} -p {accesstoken}  
+    - docker login registry.example.com -u {username} -p {access-token}  
     - docker pull registry.gitlab.com/asiabots/wilson/line_bot_api
     - sudo docker run -d -p 80:80 registry.gitlab.com/asiabots/wilson/line_bot_api
     - docker logs docker_container_id
